@@ -1,4 +1,4 @@
-package com.coding.practice.coding_champ;
+package com.coding.practice.coding_champ.testcases;
 
 import com.coding.practice.coding_champ.implementations.LRUCache;
 import com.coding.practice.coding_champ.interfaces.ILRUCache;
@@ -7,7 +7,7 @@ import com.coding.practice.coding_champ.interfaces.ILRUCache;
  * Hello world!
  *
  */
-public class App 
+public class LRUCacheTestCase 
 {
     public static void main( String[] args )
     {

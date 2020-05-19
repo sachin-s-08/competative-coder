@@ -1,13 +1,13 @@
 /**
  * 
  */
-package com.coding.practice.coding_champ;
+package com.coding.practice.coding_champ.interfaces;
 
 /**
  * @author ss
  *
  */
-public interface LRUCache {
+public interface ILRUCache {
 
 	
 	int get (int key);

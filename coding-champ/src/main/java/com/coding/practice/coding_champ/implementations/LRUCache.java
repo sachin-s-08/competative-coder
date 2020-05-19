@@ -1,16 +1,18 @@
 /**
  * 
  */
-package com.coding.practice.coding_champ;
+package com.coding.practice.coding_champ.implementations;
 
 import java.util.HashMap;
 import java.util.Map;
+
+import com.coding.practice.coding_champ.interfaces.ILRUCache;
 
 /**
  * @author ss
  *This is a LRU cache implementations example
  */
-public class LRUCacheImpl implements LRUCache{
+public class LRUCache implements ILRUCache{
 	
 	int cacheSize;
 	
@@ -30,7 +32,7 @@ public class LRUCacheImpl implements LRUCache{
 	}
 	
 	
-	public LRUCacheImpl(int cacheSize) {
+	public LRUCache(int cacheSize) {
 		super();
 		this.cacheSize = cacheSize;
 //		this.hashSet = new HashSet<>(cacheSize);
