@@ -1,0 +1,52 @@
+{
+	"serviceGroupRetryData": [
+		{
+			"serviceGroupName": "TEST_WADL_13JULY_S",
+			"serviceGroupVersion": "1.0",
+			"environment": "INTEGRATION",
+			"userName": "schopra",
+			"userGroup": "DEV",
+			"crNumber": "12345678",
+			"operation": "createRest",
+			"retryUrl": "https://82.150.238.41:8443/selfservice-resource-deployment/v2/svc-group/create",
+			"retryOperation": "POST",
+			"requestJson": "{\"serviceGroup\":\"TEST_WADL_13JULY_S\",\"serviceType\":\"TEST\",\"fileName\":\"LHMDW_12345678_20200713072920133/externalBaggageAllowance.wadl\",\"pciDss\":false,\"backwardCompatible\":false,\"capi\":false,\"serviceVersion\":\"1.0\",\"isCXFCapiPossible\":false,\"isAxis2CapiPossible\":false,\"isCXFCapiRequired\":false,\"isAxis2CapiRequired\":false,\"isWpcCompliant\":false}",
+			"retryTimestamp": "2020-08-18",
+			"retryTriggered": false,
+			"retrySuccessful": false,
+			"failureMessage": "137:Unhandled Exception while performing operation."
+		},
+		{
+			"serviceGroupName": "TEST_13MAY_WSDL",
+			"serviceGroupVersion": "1.0",
+			"environment": "INTEGRATION",
+			"userName": "ssreerangappa",
+			"userGroup": "DEV",
+			"crNumber": "12345678",
+			"operation": "createSoap",
+			"retryUrl": "https://82.150.238.41:8443/selfservice-resource-deployment/v2/svc-group/create",
+			"retryOperation": "POST",
+			"requestJson": "{\"serviceGroup\":\"TEST_13MAY_WSDL\",\"serviceType\":\"TEST\",\"fileName\":\"LHMDW_12345678_20200513113856170/Swiss15belowNotification.wsdl\",\"pciDss\":true,\"backwardCompatible\":true,\"capi\":false,\"serviceVersion\":\"1.0\",\"isCXFCapiPossible\":false,\"isAxis2CapiPossible\":false,\"isCXFCapiRequired\":false,\"isAxis2CapiRequired\":false,\"isWpcCompliant\":false}",
+			"retryTimestamp": "2020-08-31",
+			"retryTriggered": false,
+			"retrySuccessful": false,
+			"failureMessage": "133:Unable to perform operation on AI"
+		},
+		{
+			"serviceGroupName": "TEST_SOAP_WSDL_13JULY_S",
+			"serviceGroupVersion": "1.0",
+			"environment": "INTEGRATION",
+			"userName": "schopra",
+			"userGroup": "DEV",
+			"crNumber": "12345678",
+			"operation": "createSoap",
+			"retryUrl": "https://82.150.238.41:8443/selfservice-resource-deployment/v2/svc-group/create",
+			"retryOperation": "POST",
+			"requestJson": "{\"serviceGroup\":\"TEST_SOAP_WSDL_13JULY_S\",\"serviceType\":\"test\",\"fileName\":\"LHMDW_12345678_20200713072431464/CheetahAccountManagementV7_TST.wsdl\",\"pciDss\":false,\"backwardCompatible\":false,\"capi\":false,\"serviceVersion\":\"1.0\",\"isCXFCapiPossible\":false,\"isAxis2CapiPossible\":false,\"isCXFCapiRequired\":false,\"isAxis2CapiRequired\":false,\"isWpcCompliant\":false}",
+			"retryTimestamp": "2020-08-26",
+			"retryTriggered": false,
+			"retrySuccessful": false,
+			"failureMessage": "Index: 0, Size: 0"
+		}
+	]
+}
