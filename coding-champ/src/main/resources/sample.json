@@ -1,0 +1,21 @@
+{
+	"error": {
+		"requestIdentifier": "df47143e-5386-4e15-820a-1495f332c6862020-10-14 11:48:58.904",
+		"serviceHost": "BLRL75386",
+		"processingErrors": [
+			{
+				"type": "DXAPI thirdparty security bridge failure at LHMDW",
+				"code": 2210,
+				"description": "Missing or invalid Authorization header. Authorization header expects value as Bearer ####",
+				"infoUrl": "SampleRestService:1.1.0.0:/person/get:GET",
+				"innerError": {
+					"code": 491,
+					"descriptionObject": {
+						"code": 2320,
+						"description": "java.lang.IllegalAccessException"
+					}
+				}
+			}
+		]
+	}
+}
