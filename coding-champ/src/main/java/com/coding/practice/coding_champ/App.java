@@ -1,29 +1,58 @@
 package com.coding.practice.coding_champ;
 
-import com.coding.practice.coding_champ.implementations.LRUCache;
-import com.coding.practice.coding_champ.interfaces.ILRUCache;
+import java.util.LinkedList;
 
 /**
  * Hello world!
  *
  */
-public class App 
+public class App extends A
 {
+	@Override
+	Object method() {
+		return 12;
+	}
+	
+	public int[] removeOnes (int[] arr) {
+		return null;
+	}
+	
+	
+	public void method1(int i) {
+		System.out.println("method int");
+	}
+	
+	public void method1(Integer i) {
+		System.out.println("Object");
+	}
+	
+	static int count = 0;
     public static void main( String[] args )
-    {
-    	
-    	
-    	ILRUCache cache = new LRUCache( 2 /* capacity */ );
-
-    	cache.put(1, 1);
-    	cache.put(2, 2);
-    	cache.get(1);       // returns 1
-    	cache.put(3, 3);    // evicts key 2
-    	cache.get(2);       // returns -1 (not found)
-    	cache.put(4, 4);    // evicts key 1
-    	cache.get(1);       // returns -1 (not found)
-    	cache.get(3);       // returns 3
-    	cache.get(4);
-        System.out.println( "Hello World!" );
+    {LinkedList<Integer> list = new LinkedList<>();
+    
+    
+    
+    try {
+		System.out.println();
+	} catch (Exception e) {
+		// TODO: handle exception
+	}catch (ArithmeticException e) {
+		// TODO: handle exception
+	}finally {
+		// TODO: handle finally clause
+	}
+    
+    list.add(10);
+    list.add(20);
+    
+    System.out.println(list);
+    
     }
+    
+    public void printn (int n) {
+    	
+    }
+    
+    
+    
 }
